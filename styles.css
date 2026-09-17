@@ -1,24 +1,49 @@
-body{
-    background-color: rgb(222, 183, 110);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-    color: slategray;
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #F6F4EF;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #2B2B2B;
 }
-p{
-    font-size: large;
-    color: rgb(248, 248, 248);
-    -webkit-text-stroke: 1px #f17474;
+
+
+h1 {
+  color: #24424D;
 }
-.profile-card{
-    background-color: rgb(0, 0, 0);
-    border: 2px solid #e2e8f0;
-    border-radius: 12px;
-    margin: 20px 0;
-    padding: 20px;  
-    max-width: 250px;
+
+
+h2 {
+  color: #24424D;
+  font-weight: normal;
 }
-a:hover {
-    background-color: #2980b9;
-    color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+p {
+  margin: 10px 0;
+}
+
+
+.profile-card {
+  border: 1px solid #CCCCCC;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.avatar {
+  max-width: 160px;
+  border-radius: 50%;
+}
+
+
+.link-item {
+  color: #24424D;
+}
+
+.link-item:hover {
+  color: #C97C4B;
+}
+
+#tagline {
+  color: #6B6558;
 }

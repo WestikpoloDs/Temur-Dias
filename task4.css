@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+#grades-heading {
+  text-align: center;
+}
+
+
+.grades-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.grades-table th,
+.grades-table td {
+  border: 1px solid #999999;
+  padding: 10px;
+  text-align: center;
+}
+
+.grades-table th {
+  background-color: #2E5147;
+  color: #FFFFFF;
+}
+
+.grades-table tr:nth-child(even) {
+  background-color: #F0F5F2;
+}
+
+.highlight-row {
+  background-color: #FCEFD8;
+}
+
+
+.feedback-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+
+#submit-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2E5147;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #C97C4B;
+}

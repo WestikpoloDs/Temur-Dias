@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1 id="main-title">My first work</h1>
-        <h2>Assignment 1</h2>
-        <div class="profile-card">
-            <img width="130px" src="Battlebeast.jpg">
-            <p class="student-name">Temur Dias</p>
-            <p>SE-2527</p>
-            <p>WebTech</p>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temur Dias — Personal Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Temur Dias</h1>
+    <h2 id="tagline">Student and begginer frontend assignment</h2>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>
+        My name is Dias, and I'm studying at the Faculty of Information
+        Technology, taking my first steps into web development. This page is
+        my first independent project built with HTML and CSS.
+      </p>
+      <p class="highlight">
+        I'm interested in interfaces that are simple and pleasant to use at
+        the same time. I'm learning to write markup by hand, without ready-made
+        frameworks, to really understand the fundamentals.
+      </p>
+      <p>
+        In my free time I play chess, read about the history of technology,
+        and I'm slowly building a portfolio of small projects.
+      </p>
+    </section>
+
+    <section class="profile-card" id="profile">
+      <img src="kotarbuz.jpg" alt="Profile photo of Damir Akhmetov" class="avatar">
+      <div class="profile-info">
+        <h3>Temur Dias</h3>
+        <p class="group">Group: SE-2527</p>
+        <p class="bio">I enjoy clean code and minimalist design. Currently learning HTML, CSS and JavaScript.</p>
+      </div>
+    </section>
+
+    <section class="lists">
+      <div class="list-block">
+        <h3>My Learning Plan</h3>
         <ol>
-            <li>Burger</li>
-            <li>Elden Ring</li>
-            <li>AITU</li>
-            <li>Diplom</li>
+          <li>Master HTML</li>
+          <li>Go deeper into CSS</li>
+          <li>Learn the basics of JavaScript</li>
+          <li>Build my first learning web app</li>
         </ol>
+      </div>
+
+      <div class="list-block">
+        <h3>My Interests</h3>
         <ul>
-            <li>Fail</li>
-            <li>Success</li>
-            <li>Motivation</li>
-            <li>Ending</li>
+          <li>Web design and typography</li>
+          <li>Game Dev</li>
+          <li>Sport</li>
+          <li>Cooking</li>
         </ul>
-        <a href="https://astanait.edu.kz/"> link to AITU</a><br><br>
-        <a href="https://youtu.be/dQw4w9WgXcQ?si=aimNMszUR06O_i_H"> want to watch youtube?</a> 
-        </div>
-    </body>
+      </div>
+    </section>
+
+    <section class="links">
+      <h3>Useful Links</h3>
+      <a href="https://developer.mozilla.org/en-US/" target="_blank" class="link-item">MDN Web Docs</a>
+      <a href="https://github.com/Westikpolods" target="_blank" class="link-item">My GitHub</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Temur Dias. Student project.</p>
+  </footer>
+
+</body>
 </html>
